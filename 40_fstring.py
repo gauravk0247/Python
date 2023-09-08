@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # F strings
 # from typing 
 import math
@@ -11,4 +12,19 @@ a1 =3
 # print(b)
 
 a = f"this is {me} {a1} {math.cos(65)}"
+=======
+# F strings
+# from typing 
+import math
+
+
+me = "Gaurav"
+a1 =3
+# a = "this is %s %s"%(me, a1)
+# a = "This is {1} {0}"
+# b = a.format(me, a1)
+# print(b)
+
+a = f"this is {me} {a1} {math.cos(65)}"
+>>>>>>> 8ad8ee1 (Add initial files)
 print(a)

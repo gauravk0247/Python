@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 f = open("gaurav.txt")
 f.seek(10)
 print(f.tell())
@@ -5,4 +6,13 @@ print(f.readline())
 # print(f.tell())
 print(f.readline())
 # print(f.tell())
+=======
+f = open("gaurav.txt")
+f.seek(10)
+print(f.tell())
+print(f.readline())
+# print(f.tell())
+print(f.readline())
+# print(f.tell())
+>>>>>>> 8ad8ee1 (Add initial files)
 f.close()
